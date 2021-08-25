@@ -1,12 +1,8 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-    navbarFixedTopAnimation();
-    closeMenuBeforeGoingToPage();
-  });
+//Toggle Menu
+const menuToggle = document.querySelector('.toggle');
+const main = document.querySelector('.main');
 
-document.addEventListener("DOMContentLoaded", function (event) {
-    navbarToggleSidebar();
-    closeMenuBeforeGoingToPage();
-    navActivePage();
-  });
-
-
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  main.classList.toggle('active');
+})
