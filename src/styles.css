@@ -1,13 +1,19 @@
 :root {
   --branding-color: #6c63ff;
   --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
-
+  --default-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
   background-color: #f1f1f1;
 }
+
+p {
+  font-size: 12px;
+}
+
+
+
 
 /*! Top & Side Toggle NavBar  */
 .nav-main{
@@ -97,6 +103,7 @@ body {
   background-color: #222;
 }
 
+
 /*! Homepage hero */
 h1 {
   font-size: 96px;
@@ -109,7 +116,7 @@ h1 {
 }
 
 .hero p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: var(--default-font-family);
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -130,4 +137,10 @@ h1 {
   line-height: 27px;
   padding: 12px;
   font-size: 18px;
+}
+
+/*! Yogurt */
+.container {
+  text-align: center;
+  padding: 50px 10px 10px 60px;
 }
