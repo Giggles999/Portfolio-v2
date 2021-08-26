@@ -2,6 +2,7 @@ body {
   background-color: #f1f1f1;
 }
 
+/*! Top & Side Toggle NavBar  */
 .nav-main{
   width: 100%;
   height: 60px;
@@ -87,4 +88,13 @@ body {
 
 .nav-sidebar ul li a:hover {
   background-color: #222;
+}
+
+/*! Homepage hero */
+
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 75px 10px 10px 10px;
+
 }
