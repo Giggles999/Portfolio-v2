@@ -1,8 +1,9 @@
-//Toggle Menu
-const menuToggle = document.querySelector('.toggle');
-const main = document.querySelector('.main');
+//Toggle Menu 
+let toggleNavStatus = false;
 
-menuToggle.addEventListener('click', () => {
-  menuToggle.classList.toggle('active');
-  main.classList.toggle('active');
-})
+let toggleNav = function (){
+  let getSidebar = document.querySelector(".nav-sidebar");
+  let getSidebarUl = document.querySelector(".nav-sidebar ul");
+  let getSidebarTitle = document.querySelector(".nav-sidebar span");
+  let getSidebarLinks = document.querySelectorAll(".nav-sidebar a");
+}
