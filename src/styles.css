@@ -57,6 +57,7 @@ body {
   height: calc(100vh - 60px);
   background-color: #1b1b1b;
   z-index: 1000;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul {
@@ -81,6 +82,7 @@ body {
   font-size: 12px;
   white-space: nowrap;
   opacity: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul li a:hover {
