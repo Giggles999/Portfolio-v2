@@ -149,7 +149,8 @@ h1 {
 /*! About hero */
 .about-paragraph p {
   font-family: var(--default-font-family);
-  font-size: 14px;
+  font-size: 20px;
   margin: 0;
   color: var(--default-font-color);
+  text-align: block;
 }
