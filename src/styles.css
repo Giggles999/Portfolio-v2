@@ -145,3 +145,11 @@ h1 {
   text-align: center;
   padding: 50px 10px 10px 60px;
 }
+
+/*! About hero */
+.about-paragraph p {
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  margin: 0;
+  color: var(--default-font-color);
+}
