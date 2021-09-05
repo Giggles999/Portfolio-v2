@@ -133,3 +133,13 @@ h1 {
   color: var(--default-font-color);
   text-align: block;
 }
+
+/*! Footer */
+.card {
+  padding: 0px 10px 10px 60px;
+}
+
+.footer-media {
+  display: flex;
+  flex-direction: row;
+}
